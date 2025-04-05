@@ -1,0 +1,8 @@
+name = input("Digite o nome do jogo: ")
+yearLaunch = int(input("Digite o ano de lançamento do jogo: "))
+gamePrice = float(input("Digite o preço do jogo: "))
+noteRating= float(input("Digite a nota de avaliação do jogo: "))
+print(name)
+print(yearLaunch)
+print(gamePrice)
+print(noteRating)
