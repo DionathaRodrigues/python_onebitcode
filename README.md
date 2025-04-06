@@ -45,43 +45,10 @@ git add .
 
 ## ✅ 4. Faça o primeiro commit
 ```bash
-git commit -m "Primeiro commit: adicionando arquivos iniciais"
+git commit -m "Atualização"
 ```
 
-## 🌐 5. Adicione o repositório remoto do GitHub
-> Substitua pela URL do seu repositório
+## ⬆️ 5. Envie os arquivos para o GitHub
 ```bash
-git remote add origin https://github.com/seu-usuario/seu-repositorio.git
+git push origin main
 ```
-
-## 🔄 6. Faça um pull para sincronizar com o repositório remoto (caso ele já tenha arquivos como README)
-```bash
-git pull origin main --allow-unrelated-histories
-```
-
-## 🚚 7. Resolva conflitos se houver, e faça novo commit se necessário
-```bash
-git add .
-git commit -m "Resolvendo conflitos com o repositório remoto"
-```
-
-## ⬆️ 8. Envie os arquivos para o GitHub
-```bash
-git push -u origin main
-```
-
----
-
-## 💥 Alternativa (Se quiser sobrescrever o remoto com o local)
-```bash
-git push -u origin main --force
-```
-> ⚠️ **CUIDADO:** Isso irá sobrescrever todo o conteúdo que já estiver no GitHub.
-
----
-
-## ✅ Pronto!
-<<<<<<< HEAD
-Seu projeto agora está versionado localmente e publicado no GitHub! 🎉
-=======
-Seu projeto agora está versionado localmente e publicado no GitHub! 🎉
