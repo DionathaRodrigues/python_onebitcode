@@ -14,4 +14,4 @@ elif operation == "/":
 else:
     print("Operação inválida")
     result = 0
-print(f"Resultado: {result}")
+print(f"Resultado: {result:.2f}")
