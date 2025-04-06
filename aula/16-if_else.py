@@ -14,3 +14,4 @@ if a != b:
     print("Os números são diferentes.")
 else:
     print("Os números são iguais.")
+    
