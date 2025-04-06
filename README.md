@@ -81,4 +81,7 @@ git push -u origin main --force
 ---
 
 ## ✅ Pronto!
+<<<<<<< HEAD
+Seu projeto agora está versionado localmente e publicado no GitHub! 🎉
+=======
 Seu projeto agora está versionado localmente e publicado no GitHub! 🎉
