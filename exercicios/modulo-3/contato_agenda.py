@@ -20,5 +20,5 @@ class ContactBook:
         for contact in self.contacts:
             if contact.name.lower() == name.lower():
                 print(contact)
-                return
+                return contact
         print("Contato não encontrado.")

@@ -5,4 +5,4 @@ class Contact:
         self.email = email
 
     def __str__(self):
-        return f"Name: {self.name}\\nPhone: {self.phone}\\nEmail: {self.email}"
+        return f"Name: {self.name} \nPhone: {self.phone} \nEmail: {self.email}"
